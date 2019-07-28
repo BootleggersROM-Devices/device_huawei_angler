@@ -27,6 +27,10 @@ $(call inherit-product, $(TOPDIR)vendor/bootleggers/config/common.mk)
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
+# Shishufied
+DEVICE_MAINTAINERS := "PixelBoot"
+BOOTLEGGERS_BUILD_TYPE := Shishufied
+
 PRODUCT_NAME := bootleg_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
