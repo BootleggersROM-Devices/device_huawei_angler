@@ -1,0 +1,12 @@
+[
+ {
+   "repository": "BootleggersROM-Devices/kernel_huawei_angler",
+   "target_path": "kernel/huawei/angler",
+   "branch": "queso"
+ },
+ {
+   "repository": "BootleggersROM-Devices/vendor_huawei",
+   "target_path": "vendor/huawei",
+   "branch": "queso"
+ }
+]

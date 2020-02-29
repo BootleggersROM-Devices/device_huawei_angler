@@ -20,15 +20,18 @@
 # Inherit from the common product configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
-# Inherit statix's custom configurations
-$(call inherit-product, $(TOPDIR)vendor/statix/config/common.mk)
-$(call inherit-product, $(TOPDIR)vendor/statix/config/gsm.mk)
+# Inherit bootleggers's custom configurations
+$(call inherit-product, $(TOPDIR)vendor/bootleggers/config/common.mk)
 
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-PRODUCT_NAME := statix_angler
+# Shishufied
+DEVICE_MAINTAINERS := "PixelBoot"
+BOOTLEGGERS_BUILD_TYPE := Shishufied
+
+PRODUCT_NAME := bootleg_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
