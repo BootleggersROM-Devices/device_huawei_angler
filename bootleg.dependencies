@@ -8,5 +8,9 @@
    "repository": "BootleggersROM-Devices/vendor_huawei",
    "target_path": "vendor/huawei",
    "branch": "queso"
+ },
+ {
+    "repository": "android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep"
  }
 ]
